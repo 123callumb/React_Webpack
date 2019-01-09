@@ -19,7 +19,7 @@ Once you have the terminal/cmd open at the folder run the command
 ```javascript
 npm install
 ```
-This will install all dependencies we are using on our project. It is likely e will be adding to this list during development, but this is a general base. 
+This will install all dependencies we are using on our project. It is likely we will be adding to this list during development, but this is a good start. 
 
 ## FILES
 
