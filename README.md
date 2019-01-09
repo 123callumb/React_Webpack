@@ -17,3 +17,37 @@ Once you have the terminal/cmd open at the folder run the command
 ```javascript
 npm install
 ```
+This will install all dependencies we are using on our project. It is likely e will be adding to this list during development, but this is a general base. 
+
+## FILES
+
+For development, you will be working in the project folder **src**. Inside of this folder you will find:
+**js** - A folder that will contain all javascript files we write.
+**css** - A folder that will contain all css we write.
+**res** - A folder for resources such as fonts and images.
+**App.js** - This is the entry point to our application. All used files will link back to this one.
+**index.html** - The html file we are loading our application onto. We shouldn’t have to touch this file.
+
+Please have a look at the files, I have left comments and examples to describe file structures etc.
+
+## RUNNING
+For development run the command:
+
+```javascript 
+npm start
+```
+This will run a development server which you can debug and edit on.
+
+### PRODUCTION
+
+You wont have to worry about this for now but if you’d like to generate your application into a static javascript bundle file to throw on a server then you can run:
+
+```javascript
+npm run build
+```
+The output will be in the folder **dist**
+
+### OTHER 
+Please msggggg me if there’s any problems setting up the project folder, I’m sure there will be some problems, but I that’s just coding :) 
+
+
